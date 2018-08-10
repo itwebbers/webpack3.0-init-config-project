@@ -1,0 +1,19 @@
+// zander 2018.01.22
+// 定义变量
+$base: #cccccc;
+
+// 引入其他依赖scss
+@import url('base.scss');
+
+// 主页样式开始
+html, body {
+    background-color: $base;
+}
+.bg {
+    width: 400px;
+    height: 400px;
+    background-color: $base;
+    img {
+        transform: rotate(45deg);
+    }
+}
